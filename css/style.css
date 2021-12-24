@@ -89,12 +89,13 @@ section div article h2 {
 section div article img {
     margin-right: 10px;
 }
-/* Responsiveness */
+
 @media screen and (max-width: 580px) {
     body {
         display: flex;
         justify-content: center;
         align-items: center; 
+        flex-direction: column;
         overflow: hidden;
     }
     section div article {  
